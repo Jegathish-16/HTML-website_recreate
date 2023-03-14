@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -8,7 +9,7 @@
     height:100vh;
     background-color: #101012;
 }
-nav {
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,7 +23,7 @@ nav {
     font-size: 6px;
 }
 .heading h4{
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: .7em 0 1em 0;
     display: inline-block;
     padding-top: 18px;
@@ -30,7 +31,7 @@ nav {
 .heading img{
     max-width: 40px;
     float: left;
-    margin: 10px 10px 10px 140px;
+    margin: 18px 10px 10px 140px;
 }
 .nav-links {
     width: 60%;
@@ -42,10 +43,13 @@ nav {
     padding: 12px;
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     width: 15%;
     text-align: left;
     margin-left: -12px;
+}
+a:hover {
+    color: #BBC19D;
 }
 .button {
     float: right;
@@ -54,11 +58,12 @@ nav {
     border: 0.1px solid #ffffff;
     padding: 10px 20px;
     background: rgb(0, 0, 0);
-    font-size: 0.5em;
+    font-size: 0.7em;
     cursor: pointer;
     position: absolute;
-    width: 100px;
-    left: 900px;
+    width: 110px;
+    left: 1180px;
+    top: 20px;
 }
 .button1 {
     float: right;
@@ -68,9 +73,10 @@ nav {
     padding: 10px 15px;
     position: absolute;
     width: 80px;
-    left: 1010px;
+    top: 20px;
+    left: 1300px;
     background: #E3F3C4;
-    font-size: 0.5em;
+    font-size: 0.7em;
     cursor: pointer;
 }
 .button2{
@@ -80,10 +86,10 @@ nav {
     border: 0.5px solid #000000;
     padding: 10px 15px;
     position: absolute;
-    width: 80px;
+    width: 100px;
     left: 80px;
     background: #F0FFA0;
-    font-size: 0.5em;
+    font-size: 0.7em;
     cursor: pointer;
 }
 .button3{
@@ -93,13 +99,12 @@ nav {
     border: 0.1px solid #ffffff;
     padding: 10px 20px;
     background: rgb(0, 0, 0);
-    font-size: 0.5em;
+    font-size: 0.7em;
     cursor: pointer;
     position: absolute;
-    width: 110px;
-    left: 170px;
+    width: 140px;
+    left: 190px;
 }
-
 .arrow {
     border: solid rgb(255, 255, 255);
     border-width: 0 1px 1px 0;
@@ -126,16 +131,120 @@ nav {
 p{
     font-size: 50px;
     padding-left: 80px;
+    font-family: "Poppins";
 }
 .high {
     background-color: #F0FFA0;
     color: #000000;
     padding: 2px;
     border-radius: 4px;
-  }
+}
 .col h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     height: 20%;
     padding-left: 80px;
     font-weight: 30;
+}
+
+.col img{
+    max-width: 100px;
+    float: left;
+    position: absolute;
+    width: 150px;
+    left: 350px;
+    top: 475px;
+}
+
+.in-img img{
+    max-width: 30%;
+    float: left;
+    position: absolute;
+    width: 100%;
+    left: 880px;
+    top: 150px;
+}
+
+.box{
+    background-color: #E4F1C3;
+    color: #000000;
+    border: 0.1px solid #ffffff;
+    padding: 10px 70px;
+    font-size: 0.7em;
+    border-radius: 10px;
+    position: absolute;
+    width: 400px;
+    top: 600px;
+    margin-left: 5%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 1em Arial, sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 610px;
+  }
+
+.box1{
+    background-color: #F1FEA2;
+    color: #000000;
+    border: 0.1px solid #ffffff;
+    padding: 10px 70px;
+    font-size: 0.7em;
+    border-radius: 10px;
+    position: absolute;
+    width: 365px;
+    top: 600px;
+    margin-left: 31.2%;
+}
+
+.circle1 {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    background: #000000;
+    border: 1px solid #000;
+    color: #ffffff;
+    text-align: center;
+    font: 1em Arial, sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 610px;
+  }
+
+.box3{
+    background-color: #FEFEFE;
+    color: #000000;
+    border: 0.1px solid #ffffff;
+    padding: 10px 70px;
+    font-size: 0.7em;
+    border-radius: 10px;
+    position: absolute;
+    width: 365px;
+    top: 600px;
+    margin-left: 55.1%;
+}
+
+.circle3 {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    background: #000000;
+    border: 1px solid #000;
+    color: #fffefe;
+    text-align: center;
+    font: 1em Arial, sans-serif;
+    position: absolute;
+    left: 860px;
+    top: 610px;
 }
